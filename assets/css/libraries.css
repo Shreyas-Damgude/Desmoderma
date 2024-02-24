@@ -561,6 +561,7 @@ pre code {
 .row {
   display: -ms-flexbox;
   display: flex;
+  justify-content: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-right: -15px;
@@ -7468,7 +7469,6 @@ button.bg-dark:hover {
 }
 .w-100 {
   width: 100% !important;
-  margin-top: 400px;
   border-radius: 20px;
 }
 .w-auto {
@@ -7635,7 +7635,6 @@ button.bg-dark:hover {
 .pb-0,
 .py-0 {
   padding-bottom: 0 !important;
-  margin-top: 60px;
 }
 .pl-0,
 .px-0 {
