@@ -125,12 +125,12 @@ $(function () {
       .css({
         "background-image": `url(${imgSrc})`,
         "background-size": "cover",
-        "background-position": "center",
+        "background-position": "right center",
       });
     $(this).parent().addClass("bg-img");
-    if ($(this).hasClass("background-size-auto")) {
+    if ($(this).hasClass("background-size-auto"))
       $(this).parent().addClass("background-size-auto");
-    }
+
     $(this).remove();
   });
 
